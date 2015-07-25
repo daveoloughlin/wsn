@@ -1,0 +1,38 @@
+{
+  "name": "dave",
+  "version": "0.0.1",
+  "description": "A Restify server API for a postgreSQL backend of watershed data.",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^0.2.10",
+    "chai": "^2.2.0",
+    "node-restify": "^0.2.1",
+    "pg": "^4.3.0",
+    "restify": "^2.8.5",
+    "superagent": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "chai": "^2.2.0",
+    "superagent": "^1.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daveoloughlin/wsn"
+  },
+  "keywords": [
+    "postgres",
+    "restify",
+    "server"
+  ],
+  "author": "dave oloughlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daveoloughlin/wsn/issues"
+  },
+  "homepage": "https://github.com/daveoloughlin/wsn"
+}
